@@ -1,0 +1,31 @@
+/* Estilo do Cabeçalho */
+header{
+   padding: 40px 4%;
+}
+
+header > .interface{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header a{
+   color: rgba(202, 202, 202, 0.678);
+   text-decoration: none;
+   display: inline-block;
+   transition: .2s;
+}
+
+header a:hover{
+   color: white;
+   transform: scale(1.15);
+}
+
+header nav ul{
+   list-style-type: none;
+}
+
+header nav ul li{
+   display: inline-block;
+   padding: 0 40px;
+}
